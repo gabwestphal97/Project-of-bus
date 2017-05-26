@@ -14,7 +14,7 @@ int main(){
     //usuarios
     printf("Quantidade de usuarios: ");
     do{
-       scanf("ed",&usuarios);
+       scanf("%d",&usuarios);
     }
     while(usuarios < 0); 
     
@@ -26,9 +26,9 @@ int main(){
     while(motoristas menor 0); 
     
     //condições
-    if(motoristas maior 0) {
-      if(motoristas menor 2 || usuarios < 15 ) printf("\nSai minibus");
-      if (motoristas maior= 2 & usuarios >=15) Printf("\nSai bus"):
+    if(motoristas > 0) {
+      if(motoristas < 2 || usuarios < 15 ) printf("\nSai minibus");
+      if (motoristas >= 2 & usuarios >=15) Printf("\nSai bus"):
     }
     else printf("/nNão sai bus nem minibus")
                                                 
