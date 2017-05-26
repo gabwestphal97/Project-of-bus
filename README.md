@@ -4,7 +4,7 @@ Tentaremos criar um projeto para nos ajudar em um terminal de ônibus nos auxili
 
 
 */
-void usuarios, motoristas;
+int usuarios, motoristas;
 
 int main(){
     
