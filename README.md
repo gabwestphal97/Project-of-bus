@@ -3,34 +3,36 @@ Tentaremos criar um projeto para nos ajudar em um terminal de ônibus nos auxili
 
 
 
-*/
+
 int usuarios, motoristas;
 
 int main(){
     
-    printf("/tControle de Saida de Onibus \n\n");
+     printf("\tControle de Saida De Onibus\n"); //Exibe o titulo do Codigo
+     printf("\t\t\t Por: Douglas e Gabriel!\n\n\n");  //Exibe os criadores do Codigo na tela 
+
 
     
-    //usuarios
+    //Quantidade De Usuarios
     printf("Quantidade de usuarios: ");
     do{
        scanf("%d",&usuarios);
     }
     while(usuarios < 0); 
     
-    //motoristas
+    //Quantidade De Motoristas
     printf("Quantidade de motoristas: ");
     do{
        scanf("%d",&motoristas);
     }
     while(motoristas < 0); 
     
-    //condições
+    //Condições
     if(motoristas > 0) {
-      if(motoristas < 2 || usuarios < 15 ) printf("\nSai minibus");
-      if (motoristas >= 2 & usuarios >=15) printf("\nSai bus");
+      if(motoristas < 2 || usuarios < 15 ) printf("\n Sai minibus");
+      if (motoristas >= 2 && usuarios >=15) printf("\n Sai bus");
     }
-    else printf("\nNão sai bus nem minibus");
+    else printf("\n Nao sai Bus nem Minibus");
                                                 
     getch();
        
