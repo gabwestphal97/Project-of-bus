@@ -8,7 +8,7 @@ int usuarios, motoristas;
 
 int main(){
     
-    printf("Controle de Saida de Onibus /n\n");
+    printf("Controle de Saida de Onibus \n\n");
 
     
     //usuarios
@@ -19,18 +19,18 @@ int main(){
     while(usuarios < 0); 
     
     //motoristas
-    priintf("Quantidade de motoristas: ");
+    printf("Quantidade de motoristas: ");
     do{
-       Scanf("%d",&motoristas);
+       scanf("%d",&motoristas);
     }
-    while(motoristas menor 0); 
+    while(motoristas < 0); 
     
     //condições
     if(motoristas > 0) {
       if(motoristas < 2 || usuarios < 15 ) printf("\nSai minibus");
-      if (motoristas >= 2 & usuarios >=15) Printf("\nSai bus"):
+      if (motoristas >= 2 & usuarios >=15) Printf("\nSai bus");
     }
-    else printf("/nNão sai bus nem minibus")
+    else printf("\nNão sai bus nem minibus")
                                                 
     getch();
        
