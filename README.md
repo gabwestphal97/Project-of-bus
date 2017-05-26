@@ -2,7 +2,7 @@
 Tentaremos criar um projeto para nos ajudar em um terminal de ônibus nos auxiliando como qual baú saíra de acordo com a quantidade de funcionários disponíveis.
 
 
-
+#include<stdio.h>
 
 int usuarios, motoristas;
 
