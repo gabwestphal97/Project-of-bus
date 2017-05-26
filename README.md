@@ -8,7 +8,7 @@ int usuarios, motoristas;
 
 int main(){
     
-    printf("Controle de Saida de Onibus \n\n");
+    printf("/tControle de Saida de Onibus \n\n");
 
     
     //usuarios
@@ -28,9 +28,9 @@ int main(){
     //condições
     if(motoristas > 0) {
       if(motoristas < 2 || usuarios < 15 ) printf("\nSai minibus");
-      if (motoristas >= 2 & usuarios >=15) Printf("\nSai bus");
+      if (motoristas >= 2 & usuarios >=15) printf("\nSai bus");
     }
-    else printf("\nNão sai bus nem minibus")
+    else printf("\nNão sai bus nem minibus");
                                                 
     getch();
        
